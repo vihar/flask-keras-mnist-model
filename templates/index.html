@@ -34,6 +34,7 @@
 			var $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
 			var canvasObj = document.getElementById("canvas");
 			var img = canvasObj.toDataURL();
+			console.log(img);
 			$.ajax({
 				type: "POST",
 				url: $SCRIPT_ROOT + "/predict/",
