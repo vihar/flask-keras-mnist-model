@@ -1,0 +1,6 @@
+Keras==2.2.0
+tensorflow==1.8.0
+flask
+numpy
+pandas
+Pillow==5.2.0
