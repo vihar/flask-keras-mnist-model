@@ -4,3 +4,4 @@ flask
 numpy
 pandas
 Pillow==5.2.0
+gunicorn==18.0.0
